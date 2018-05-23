@@ -68,7 +68,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import '@/scss/variate.scss';
+$theme-color: #FF5A00;
 .form__button {
   display: inline-block;
   width: 320px;
@@ -77,42 +77,33 @@ export default {
   line-height: 60px;
   font-size:18px;
   text-align: center;
-  // font-family: MicrosoftYaHei;
   color:rgba(51,51,51,1);
   background:rgba(219,219,219,1);
   border-radius: 4px;
   border: none;
   cursor: pointer;
 }
-.form__hint {
-  margin-left: 80px;
-  font-size: 14px;
-  color: #999;
-  .hint__login {
-    color: $theme-color;
-  }
-}
-}
 
 .form__item {
-height: 40px;
-margin-bottom: 30px;
-line-height: 40px;
-font-size: 0;
-label {
-  display: inline-block;
-  margin-right: 19px;
-  font-size: 14px;
-  &:first-child {
-    margin-right: 0;
-    min-width: 80px;
+  height: 40px;
+  margin-bottom: 30px;
+  line-height: 40px;
+  font-size: 0;
+  label {
+    display: inline-block;
+    margin-right: 19px;
+    font-size: 14px;
+    &:first-child {
+      margin-right: 0;
+      min-width: 80px;
+    }
   }
 }
 label.required::after {
   content: '*';
   display: inline-block;
   margin-right: 16px;
-  color: $theme-color2;
+  color: $theme-color;
 }
 &.form__sex {
   display: inline-block;
@@ -161,8 +152,8 @@ input[type="text"], input[type="tel"], input[type="password"] {
   box-sizing: border-box;
   &:focus {
     outline: 0;
-    box-shadow: 0px 0px 3px $theme-color2;
-    border-color: $theme-color2;
+    box-shadow: 0px 0px 3px $theme-color;
+    border-color: $theme-color;
   }
 }
 
@@ -186,8 +177,8 @@ select {
   box-sizing: border-box;
   &:focus {
     outline: 0;
-    box-shadow: 0px 0px 3px $theme-color2;
-    border-color: $theme-color2;
+    box-shadow: 0px 0px 3px $theme-color;
+    border-color: $theme-color;
   }
 }
 
@@ -202,8 +193,8 @@ textarea {
   vertical-align: middle;
   &:focus {
     outline: 0;
-    box-shadow: 0px 0px 3px $theme-color2;
-    border-color: $theme-color2;
+    box-shadow: 0px 0px 3px $theme-color;
+    border-color: $theme-color;
   }
 }
 
@@ -224,7 +215,7 @@ input[type="radio"] + label::before{
 }
 
 input[type="radio"]:checked + label::before{
-  border: 4.5px solid $theme-color2;
+  border: 4.5px solid $theme-color;
 }
 
 </style>
