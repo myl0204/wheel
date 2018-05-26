@@ -4,6 +4,8 @@
 - radio单选项
 - select下拉框
 - textarea文本域
+
+
 组件接受多个参数：
 - type(optional)： 组件类型，包括textarea、select、radio，默认为text
 - label(optional)：label项，显示在input之前
