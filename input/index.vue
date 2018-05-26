@@ -69,21 +69,6 @@ export default {
 
 <style lang="scss">
 $theme-color: #FF5A00;
-.form__button {
-  display: inline-block;
-  width: 320px;
-  height: 60px;
-  margin: 40px 0 45px 80px;
-  line-height: 60px;
-  font-size:18px;
-  text-align: center;
-  color:rgba(51,51,51,1);
-  background:rgba(219,219,219,1);
-  border-radius: 4px;
-  border: none;
-  cursor: pointer;
-}
-
 .form__item {
   height: 40px;
   margin-bottom: 30px;
@@ -146,7 +131,6 @@ input[type="text"], input[type="tel"], input[type="password"] {
   width: 330px;
   padding: 13px 9px;
   font-size: 14px;
-  // font-family:MicrosoftYaHei;
   border: 1px solid #dddddd;
   border-radius: 8px;
   box-sizing: border-box;
@@ -171,7 +155,6 @@ select {
   padding: 13px 9px;
   font-size: 14px;
   line-height: 0;
-  // font-family:MicrosoftYaHei;
   border: 1px solid #dddddd;
   border-radius: 8px;
   box-sizing: border-box;
@@ -187,7 +170,6 @@ textarea {
   height: 180px;
   padding: 13px 9px;
   font-size: 14px;
-  // font-family:MicrosoftYaHei;
   border-radius: 8px;
   border: 1px solid #dddddd;
   vertical-align: middle;
@@ -205,7 +187,6 @@ input[type="radio"] + label::before{
   display: inline-block;
   width: 16px;
   height: 16px;
-  // margin:0 10px 0 19px;
   margin-right: 8px;
   transition: all .2s ease;
   border-radius: 50%;
